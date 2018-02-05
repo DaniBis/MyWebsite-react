@@ -1,0 +1,74 @@
+.myResume {
+  position: relative;
+  width: 70%;
+  height: 1000px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+  border: 1px solid black;
+}
+
+.headOfResume {
+    text-align: center;
+}
+
+.content h3 {
+  text-align: left;
+  font-size: 20px;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  display: inline-flex;
+}
+
+
+.content div h3 {
+  text-align: center;
+}
+
+.content h6 {
+  text-align: center;
+  font-size: 13px;
+}
+
+.content p {
+  text-align: center;
+  font-size: 11px;
+}
+
+.skills {
+  width: 50%;
+}
+
+.workexperience {
+  width: 50%;
+}
+
+.workexperience li {
+  font-size: 11px;
+}
+
+.workexperience a {
+  text-align: center;
+}
+
+.workexperience img {
+  width: 215px;
+  height: 130px;
+  display: block;
+  margin: 0 auto;
+}
+
+.workexperience img:active {
+  transform: scale(3);
+}
+
+.comunication {
+  width: 50%;
+}
+
+.education {
+  width: 50%;
+}

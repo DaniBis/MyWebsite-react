@@ -1,0 +1,49 @@
+.App {
+  margin: 10px;
+  text-align: center;
+  width: 98.5%;
+  height: 800px;
+  font-family: Arial,sans-serif; 
+}
+
+.theTitle {
+  width: 185px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.modifier-class {
+  position: absolute;
+  color: white;
+}
+
+.modifier-class button{
+  color: white;
+}
+
+.theHeaderStyle {
+  width: 100%;
+}
+
+.theHeaderStyle h1 {
+  cursor: pointer;
+}
+
+.myMenu {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.myMenu button {
+  margin-left: 3%;
+  margin-right: 3%;
+  background:none!important;
+  border:none;
+  padding:0!important;
+  font: inherit;
+  cursor: pointer;
+}
+
+.Travel {
+  top: 10px;
+}
