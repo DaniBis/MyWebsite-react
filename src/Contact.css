@@ -1,0 +1,72 @@
+.Contact {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  letter-spacing: 0.15em;
+}
+
+.formalForm {
+  width: 50%;
+  text-align: center;
+  color: rgb(255,255,255);
+  background:black;
+  background-size: 100% 100%;
+}
+
+.formalForm input {
+width: 40%;
+display: flex;
+padding: 10px 15px;
+font-size: 12px;
+margin-left: 12vw;
+margin-top: 10px;
+text-align: center;
+}
+
+.formalForm input:last-of-type {
+  height: 200px;
+}
+
+.formalForm button {
+margin-top: 10px;
+border-radius: 0;
+padding: 10px 15px;
+font-size: 12px;
+letter-spacing: 0.15em;
+font-family: 'Arial Narrow', sans-serif;
+text-transform: uppercase;
+}
+
+.informalForm {
+  width: 50%;
+  text-align: center;
+  color: rgb(0,0,0);
+  background:white;
+  background-size: 100% 100%;
+}
+
+.informalForm input {
+width: 40%;
+display: flex;
+padding: 10px 15px;
+font-size: 12px;
+margin-left: 12vw;
+margin-top: 10px;
+text-align: center;
+}
+
+.informalForm input:last-of-type {
+  height: 200px;
+}
+
+.informalForm button {
+margin-top: 10px;
+border-radius: 0;
+padding: 10px 15px;
+font-size: 12px;
+letter-spacing: 0.15em;
+font-family: 'Arial Narrow', sans-serif;
+text-transform: uppercase;
+}

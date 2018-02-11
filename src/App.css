@@ -3,13 +3,14 @@
   text-align: center;
   width: 98.5%;
   height: 800px;
-  font-family: Arial,sans-serif; 
+  font-family: Arial,sans-serif;
 }
 
 .theTitle {
-  width: 185px;
+  width: 220px;
   padding-top: 20px;
   margin: 0 auto;
+  letter-spacing: 0.10em;
 }
 
 .modifier-class {

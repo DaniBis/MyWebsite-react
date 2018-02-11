@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Resume from './Resume';
+import Contact from './Contact';
 import './App.css';
 
 class Header extends Component {
@@ -18,8 +19,7 @@ class Header extends Component {
           <h1 className="theTitle" onClick={()=> this.setState({ displayedComponent : Carousel})}> No mad Life </h1>
             <div className="myMenu">
             <button onClick={()=> this.setState({ displayedComponent : Resume})}> Resume </button>
-            <button onClick={()=> this.setState({ displayedComponent : Travel})}> Travel </button>
-            <button onClick={()=> this.setState({ displayedComponent : Art})}> Art </button>
+            <button onClick={()=> this.setState({ displayedComponent : About})}> About me and my work </button>
             <button onClick={()=> this.setState({ displayedComponent : Contact})}> Contact Me </button>
           </div>
         </div>
@@ -29,7 +29,7 @@ class Header extends Component {
   }
 }
 
-function Travel(){
+function About(){
   return(
     <div className="Travel">
       <ul>
@@ -39,16 +39,6 @@ function Travel(){
         <li>Challenges are a way of life</li>
       </ul>
     </div>
-  );
-}
-function Art(){
-  return(
-    <div className="Art">Images,Music,Dance,Poetry</div>
-  );
-}
-function Contact(){
-  return(
-    <div className="Contact"></div>
   );
 }
 
